@@ -2,21 +2,15 @@
 
 ## Description
 
-Briefly describe the purpose and content of the Jupyter Notebook.
+In this project, is applied *clustering* to *LinkedIn* job posts. Initially, the job posts will be clustered using *k-means*, relying on *PCA* scores obtained after vectorizing the data using *TF-IDF* to find the most important words.
 
-## Dependencies
+After clustering the job posts, we will conduct topic modeling on each cluster, identifying the most significant words within each cluster.
 
-List any external libraries or packages required to run the notebook.
+Finally, job salaries will be predicted based on the job posts where the salary is provided. Once this is achieved, we will extend the predictions to job posts where salary information is absent. The resulting salaries will be presented for each cluster obtained through kmeans
 
-## Installation
-
-Provide instructions on how to install any dependencies.
-
-## Usage
-
-Explain how to use the notebook, including instructions on running cells and interpreting results.
 
 ## Results and Output
 
-Describe the results or visualizations produced by the notebook and how to interpret them.
-
+Trough this analysis are obtained five *LinkedIn* post clusters, which are partially overlapping. 
+Through *Random Forest*, is reached a *Relative Mean Square Error* equal to 13%, which is a good performance considering usual linkedin salary ranges. 
+Moreover is analysed the salary difference in the five cluster previously obtained
