@@ -11,6 +11,6 @@ Finally, job salaries will be predicted based on the job posts where the salary 
 
 ## Results and Output
 
-Trough this analysis are obtained five *LinkedIn* post clusters, which are partially overlapping. 
+Trough this analysis *LinkedIn* job posts are aggregated in five partialy overlapping clusters, characterized by different job roles or benefits.
 Through *Random Forest*, is reached a *Relative Mean Square Error* equal to 13%, which is a good performance considering usual linkedin salary ranges. 
 Moreover is analysed the salary difference in the five cluster previously obtained
