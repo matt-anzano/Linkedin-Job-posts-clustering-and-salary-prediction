@@ -8,7 +8,7 @@ After clustering the job posts, we will conduct topic modeling on each cluster, 
 
 Finally, job salaries will be predicted based on the job posts where the salary is provided. Once this is achieved, we will extend the predictions to job posts where salary information is absent. The resulting salaries will be presented for each cluster obtained through kmeans
 
-# Methods
+## Methods
 - *tf-idf*
 - *Principal Component Analysis*
 - *t-SNE*
